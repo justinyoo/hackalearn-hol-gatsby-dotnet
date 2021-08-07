@@ -9,8 +9,8 @@
 
 ### 개발 도구 ###
 
-* 애저 계정: [무료 계정 생성하기](https://azure.microsoft.com/ko-kr/free/?WT.mc_id=devcloud-33673-juyoo&ocid=AID3035096)
-* Visual Studio Code: [다운로드](https://code.visualstudio.com/?WT.mc_id=devcloud-33673-juyoo&ocid=AID3035096)
+* 애저 계정: [무료 계정 생성하기](https://aka.ms/hackalearn/azure-free)
+* Visual Studio Code: [다운로드](https://aka.ms/hackalearn/vscode)
 
 
 ### Gatsby 설치 ###
@@ -28,8 +28,8 @@
 ### 애저 펑션 설치 ###
 
 * .NET Core SDK:
-  * 3.1 LTS: [다운로드](https://dotnet.microsoft.com/download/dotnet/3.1?WT.mc_id=devcloud-33673-juyoo&ocid=AID3035096)
-  * 5.0: [다운로드](https://dotnet.microsoft.com/download/dotnet/5.0?WT.mc_id=devcloud-33673-juyoo&ocid=AID3035096)
+  * 3.1 LTS: [다운로드](https://aka.ms/hackalearn/dotnet/3.1)
+  * 5.0: [다운로드](https://aka.ms/hackalearn/dotnet/5.0)
 * Azure Functions Core Tools: `npm i -g azure-functions-core-tools@3 --unsafe-perm true`
 
 
