@@ -15,7 +15,9 @@
 
 ### Gatsby 설치 ###
 
-* nvm: [윈도우 OS](https://github.com/coreybutler/nvm-windows), [리눅스/맥 OS](https://github.com/nvm-sh/nvm)
+* nvm:
+  * 윈도우: [다운로드](https://github.com/coreybutler/nvm-windows)
+  * 리눅스/맥: [다운로드](https://github.com/nvm-sh/nvm)
 * node.js: 14.x LTS
   * 윈도우 명령어: `nvm install 14.x.y` &ndash; `x`, `y`는 14 LTS 버전 넘버
   * 리눅스/맥 명령어: `nvm install --lts`
