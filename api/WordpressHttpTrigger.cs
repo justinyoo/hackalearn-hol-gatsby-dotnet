@@ -1,16 +1,18 @@
 using System;
-using System.IO;
+using System.Net.Http;
 using System.Threading.Tasks;
+
+using Api.Models;
+
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
-using System.Net.Http;
-using api.Models;
 
-namespace api
+using Newtonsoft.Json;
+
+namespace Api
 {
     public static class WordpressHttpTrigger
     {
