@@ -14,16 +14,16 @@ using Newtonsoft.Json;
 
 namespace Api
 {
-    public static class WordpressHttpTrigger
+    public static class CmsHttpTrigger
     {
-        [FunctionName("WordpressHttpTrigger")]
+        [FunctionName("CmsHttpTrigger")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "GET", Route = "posts")] HttpRequest req,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
 
-            var blogUri = Environment.GetEnvironmentVariable("Wordpress__URL");
+            var blogUri = Environment.GetEnvironmentVariable("BLOG_URI");
             var requestUri = $"https://public-api.wordpress.com/rest/v1.1/sites/{blogUri}/posts/";
 
             var posts = default(PostCollection);

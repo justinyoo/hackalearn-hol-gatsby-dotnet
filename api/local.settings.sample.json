@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+    "BLOG_URI": "<워드프레스_주소>.wordpress.com"
+  },
+  "Host": {
+    "CORS": "http://localhost:8000"
+  }
+}
